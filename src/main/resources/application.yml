@@ -1,0 +1,29 @@
+server:
+  port: 7078
+  
+logging:
+  file:
+    name: logs/application.log
+    max-history: 30
+    max-size: 10MB
+  level:
+    org.apache.http: INFO
+    org.springframework.cloud.sleuth: INFO
+    org.springframework.web: INFO
+    com.netflix.discovery.DiscoveryClient: INFO
+    org.springframework.security: INFO
+    org.hibernate: ERROR
+    com.bankwith.mint: INFO
+    
+app:
+   client-id: Test
+   client-secret: test
+bankwithmint:
+  enquiry-url: https://lookup.binlist.net/
+
+spring:
+   kafka:
+     producer:
+        bootstrap-servers: localhost:9092
+        key-serializer: org.apache.kafka.common.serialization.StringSerializer
+        value-serializer: org.apache.kafka.common.serialization.StringSerializer
