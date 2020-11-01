@@ -67,7 +67,7 @@ public class BankWithMintService {
 		return null;
 
 	}
-	
+
 	public HitCountResponse hitCount(String start, String limit) {
 
 		String finalUrl = enquiryUrl + start + "/" + limit;

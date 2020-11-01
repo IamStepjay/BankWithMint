@@ -1,0 +1,40 @@
+= BWM API Documentation
+Bank With Mint
+1.0.0, 01/11/2020
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:highlightjs-theme: github
+:toc: left
+:toclevels: 3
+:sectlinks:
+:sectnums:
+
+== Introduction
+This is a sample of Spring REST Docs generated documentation.
+
+== Resources
+Collection of REST endpoints used to make payment.
+
+=== Verify Card
+
+==== curlRequest
+include::C:\Users\stephen.ojerinde\Downloads\2020\mint\target\generated-snippets\mint\verifyCard\curl-request.adoc[]
+
+==== httpieRequest
+include::C:\Users\stephen.ojerinde\Downloads\2020\mint\target\generated-snippets\mint\verifyCard\httpie-request.adoc[]
+
+==== httpRequest
+include::C:\Users\stephen.ojerinde\Downloads\2020\mint\target\generated-snippets\mint\verifyCard\http-request.adoc[]
+
+==== httpResponse
+include::C:\Users\stephen.ojerinde\Downloads\2020\mint\target\generated-snippets\mint\verifyCard\http-response.adoc[]
+
+==== requestBody
+include::C:\Users\stephen.ojerinde\Downloads\2020\mint\target\generated-snippets\mint\verifyCard\request-body.adoc[]
+
+==== requestFields
+include::C:\Users\stephen.ojerinde\Downloads\2020\mint\target\generated-snippets\mint\verifyCard\request-fields.adoc[]
+
+==== responseBody
+include::C:\Users\stephen.ojerinde\Downloads\2020\mint\target\generated-snippets\mint\verifyCard\response-body.adoc[]
